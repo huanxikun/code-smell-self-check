@@ -1,0 +1,4 @@
+interface:
+  display_name: "代码坏味道自查"
+  short_description: "检查命名、重复代码、长函数、大类、长参数列表、控制语句、封装、可变数据、依赖方向与一致性，给出最小改进建议"
+  default_prompt: "使用 $code-smell-self-check 按已定义的十四条规则检查本次改动，并给出有依据的改进建议。"
