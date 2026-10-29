@@ -24,6 +24,7 @@
 ```text
 code-smell-self-check/
 ├── README.md
+├── LICENSE
 ├── .gitignore
 └── skills/
     └── code-smell-self-check/
@@ -66,7 +67,7 @@ https://github.com/huanxikun/code-smell-self-check/tree/main/skills/code-smell-s
 
 ```bash
 git init -b main
-git add README.md .gitignore skills
+git add README.md LICENSE .gitignore skills
 git commit -m "Initialize code smell self-check skill scaffold"
 git remote add origin https://github.com/huanxikun/code-smell-self-check.git
 git push -u origin main
@@ -76,4 +77,4 @@ git push -u origin main
 
 ## 许可证
 
-尚未选择开源许可证。正式开放他人复用前，请选定许可证并在仓库根目录添加 `LICENSE` 文件。
+本项目采用 [MIT 许可证](LICENSE)。允许使用、修改和分发（包括商业用途），须保留版权及许可声明；软件按原样提供，不作担保。
